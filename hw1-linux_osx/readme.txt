@@ -1,0 +1,1 @@
+Hello again Mac users! Here's the additional Makefile you need to download for the HW1 skeleton code. Please follow the same procedures as that for HW0, except using the Makefile here (you can also skip the libinstall.sh if you've installed the libraries already during HW0).

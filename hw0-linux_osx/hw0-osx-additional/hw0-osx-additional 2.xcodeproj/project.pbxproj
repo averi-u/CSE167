@@ -1,0 +1,157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BAED1C072975312F00BC97E7 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		BAED1C082975312F00BC97E7 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BAED1C092975312F00BC97E7 /* hw0-osx-additional.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "hw0-osx-additional.xcodeproj"; sourceTree = "<group>"; };
+		BAED1C0C2975312F00BC97E7 /* libinstall.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = libinstall.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BAED1C012975312F00BC97E7 = {
+			isa = PBXGroup;
+			children = (
+				BAED1C072975312F00BC97E7 /* .DS_Store */,
+				BAED1C082975312F00BC97E7 /* Makefile */,
+				BAED1C092975312F00BC97E7 /* hw0-osx-additional.xcodeproj */,
+				BAED1C0C2975312F00BC97E7 /* libinstall.sh */,
+			);
+			sourceTree = "<group>";
+		};
+		BAED1C0A2975312F00BC97E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BAED1C062975312F00BC97E7 /* hw0-osx-additional */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BAED1C0E2975312F00BC97E7 /* Build configuration list for PBXLegacyTarget "hw0-osx-additional" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/zhizhenyu/code/CSE167/hw0-linux_osx/hw0-osx-additional";
+			dependencies = (
+			);
+			name = "hw0-osx-additional";
+			passBuildSettingsInEnvironment = 1;
+			productName = "hw0-osx-additional";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		BAED1C022975312F00BC97E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = BAED1C052975312F00BC97E7 /* Build configuration list for PBXProject "hw0-osx-additional 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAED1C012975312F00BC97E7;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BAED1C0A2975312F00BC97E7 /* Products */;
+					ProjectRef = BAED1C092975312F00BC97E7 /* hw0-osx-additional.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BAED1C062975312F00BC97E7 /* hw0-osx-additional */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BAED1C032975312F00BC97E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		BAED1C042975312F00BC97E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		BAED1C0F2975312F00BC97E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "hw0-osx-additional";
+			};
+			name = Debug;
+		};
+		BAED1C102975312F00BC97E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "hw0-osx-additional";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAED1C052975312F00BC97E7 /* Build configuration list for PBXProject "hw0-osx-additional 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED1C032975312F00BC97E7 /* Debug */,
+				BAED1C042975312F00BC97E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAED1C0E2975312F00BC97E7 /* Build configuration list for PBXLegacyTarget "hw0-osx-additional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED1C0F2975312F00BC97E7 /* Debug */,
+				BAED1C102975312F00BC97E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAED1C022975312F00BC97E7 /* Project object */;
+}
