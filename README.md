@@ -1,6 +1,11 @@
 # CSE 167 – Computer Graphics Projects
+### Rendered Results
 
-This repository contains my projects and assignments for **CSE 167: Computer Graphics** at **UC San Diego**.  
+![Scene 5](HW4%20Images/scene5.png)
+![Scene 6](HW4%20Images/scene6.png)
+![Scene 7](HW4%20Images/scene7%20copy.png)
+
+This repository contains my projects and assignments for **CSE 167: Computer Graphics**.  
 The course focuses on the fundamentals of 3D computer graphics, including geometric transformations, rendering pipelines, lighting models, and OpenGL programming.
 
 ---
