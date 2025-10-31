@@ -1,7 +1,7 @@
 # CSE 167 – Computer Graphics Projects
 ### Rendered Results
 
-![Scene 5](HW4%20Images/scene5.png)
+![Scene 5](scene5.png)
 ![Scene 6](HW4%20Images/scene6.png)
 ![Scene 7](HW4%20Images/scene7%20copy.png)
 
